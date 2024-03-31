@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    public int x; //creamos los enteros que representaran las coordenadas  en la casillo del tablero
+    public int x;
     public int y;
     public Board board;
 
@@ -14,6 +14,19 @@ public class Tile : MonoBehaviour
         y = y_;
         board = board_;
     }
-    // Start is called before the first frame update
 
+    public void OnMouseDown()
+    {
+        board.TileDown(this);
+    }
+
+    public void OnMouseEnter()
+    {
+        board.TileOver(this);
+    }
+
+    public void OnMouseUp()
+    {
+        board.TileUp(this);
+    }
 }

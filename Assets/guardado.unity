@@ -157,7 +157,17 @@ MonoBehaviour:
   tileObject: {fileID: 794576830052219378, guid: 5a2c2fd05b7d80135b07bb4b764fb7fa, type: 3}
   cameraSizeOffset: 0
   cameraVerticalOffset: 0
-  availablePieces: []
+  availablePieces:
+  - {fileID: 7422428259375422268, guid: a8759ccf37c416a48a725a79c79108bc, type: 3}
+  - {fileID: 8161871315419722786, guid: d1f99e6268635ce1ba28047034bac940, type: 3}
+  - {fileID: 4284366813166388568, guid: a4bd5e8f1a435f19ea1535d49840c489, type: 3}
+  - {fileID: 8874767434153508509, guid: f8cee65094125d87588f963e3895235b, type: 3}
+  - {fileID: 893799879200817841, guid: a068bc58bc72165cb872791ec2d1c208, type: 3}
+  - {fileID: 1024672341436365695, guid: ccd5acc0560244933b5109b8d435333d, type: 3}
+  - {fileID: 3809877530580037814, guid: 4ee9694a60ec8c55c87ff8ebf88d929d, type: 3}
+  - {fileID: 2387339233980375992, guid: 368188a3cb46d6228a9d392a68bb30b5, type: 3}
+  - {fileID: 305982545643898209, guid: 2da7ac01b20e98536ac065eb3fd09287, type: 3}
+  - {fileID: 4595014254990102782, guid: 0538ff8cd61b59dc78ba44c930e5d1ea, type: 3}
 --- !u!4 &1443373229
 Transform:
   m_ObjectHideFlags: 0
@@ -184,6 +194,7 @@ GameObject:
   - component: {fileID: 1800152606}
   - component: {fileID: 1800152605}
   - component: {fileID: 1800152604}
+  - component: {fileID: 1800152607}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -265,6 +276,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1800152607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800152603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
